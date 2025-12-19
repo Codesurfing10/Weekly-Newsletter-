@@ -1,0 +1,36 @@
+{
+  "last_updated": "2025-12-19T05:36:00.000Z",
+  "total_articles": 5,
+  "articles": [
+    {
+      "date": "2025-12-18T14:30:00Z",
+      "title": "Breakthrough in Quantum Hardware Enables Error-Free Computation",
+      "summary": "Researchers achieve major milestone in quantum computing with new error-correction breakthrough that brings practical quantum computers closer to reality.",
+      "url": "https://example.com/quantum-breakthrough"
+    },
+    {
+      "date": "2025-12-18T12:00:00Z",
+      "title": "Revolutionary Materials Science Discovery for Space Travel",
+      "summary": "New ultra-lightweight composite material shows promise for next-generation spacecraft, reducing weight by 40% while maintaining structural integrity.",
+      "url": "https://example.com/materials-space"
+    },
+    {
+      "date": "2025-12-17T16:45:00Z",
+      "title": "Biochemistry Innovation Leads to Sustainable Food Production",
+      "summary": "Scientists develop novel enzyme that can convert agricultural waste into nutritious proteins, potentially revolutionizing food security.",
+      "url": "https://example.com/biochem-food"
+    },
+    {
+      "date": "2025-12-17T10:20:00Z",
+      "title": "Advanced Mining Technology Reduces Environmental Impact by 60%",
+      "summary": "New autonomous mining system uses AI and robotics to extract minerals with minimal ecological disruption, setting new industry standard.",
+      "url": "https://example.com/mining-tech"
+    },
+    {
+      "date": "2025-12-16T09:15:00Z",
+      "title": "Next-Generation Rocket Engine Achieves Record Efficiency",
+      "summary": "Aerospace company demonstrates revolutionary propulsion system that could cut space mission costs in half through improved fuel efficiency.",
+      "url": "https://example.com/rocket-engine"
+    }
+  ]
+}
