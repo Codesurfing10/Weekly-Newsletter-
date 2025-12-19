@@ -4,7 +4,8 @@ import heapq
 import json
 import os
 
-NEWS_API_KEY = "422c66187c1b4815bd4b904a83eac6ee"  # Inserted NewsAPI key
+# Get API key from environment variable for security
+NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "422c66187c1b4815bd4b904a83eac6ee")
 KEYWORDS = [
     "innovation", "breakthrough", "revolutionary", "patent", "disruptive", "technology",
     "discovery", "new product", "novel", "startup", "award-winning", "groundbreaking",
@@ -51,7 +52,7 @@ def save_to_json(innovations, filename="articles.json"):
         })
     
     output_data = {
-        "last_updated": datetime.datetime.utcnow().isoformat(),
+        "last_updated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "total_articles": len(articles_data),
         "articles": articles_data
     }
@@ -62,7 +63,7 @@ def save_to_json(innovations, filename="articles.json"):
     print(f"Saved {len(articles_data)} articles to {filename}")
 
 def sweep_innovations():
-    today = datetime.datetime.utcnow().date()
+    today = datetime.datetime.now(datetime.timezone.utc).date()
     from_date = today - datetime.timedelta(days=7)
     all_innovations = []
     for industry in INDUSTRIES:

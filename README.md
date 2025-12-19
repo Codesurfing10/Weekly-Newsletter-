@@ -22,6 +22,12 @@ pip install -r requirements.txt
 
 ### Running the Scraper
 
+First, set your NewsAPI key as an environment variable (optional - a default key is provided):
+
+```bash
+export NEWS_API_KEY="your-api-key-here"
+```
+
 To fetch the latest cutting-edge articles:
 
 ```bash
